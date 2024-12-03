@@ -15,7 +15,7 @@ const Home = () => {
         <DragMotion>
           <motion.div className="w-80 h-80 mx-auto mb-8 rounded-full overflow-hidden border-4 border-primary p-1 mt-20">
             <img
-              src="/public/Web Size Headshot copy.jpg"
+              src="/Web Size Headshot copy.jpg"
               alt="Profile"
               className="w-full h-full object-cover rounded-full pointer-events-none"
             />
