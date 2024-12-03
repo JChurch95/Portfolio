@@ -7,7 +7,7 @@ const About = () => {
       className="min-h-screen flex items-center justify-center bg-dark py-20 font-spotify"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl md:text-6xl font-bold text-primary mb-12 mt-28 text-center font-spotify">
+        <h2 className="text-4xl md:text-6xl font-bold text-primary mb-12 mt-12 text-center font-spotify">
           About Me
         </h2>
         <div className="text-lg md:text-xl text-white leading-relaxed space-y-8 font-spotify">

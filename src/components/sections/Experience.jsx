@@ -53,7 +53,7 @@ const Experience = () => {
   ];
   return (
     <section id="experience" className="min-h-screen py-20 bg-dark text-light font-spotify">
-      <h2 className="text-4xl md:text-6xl font-bold text-primary mb-12 text-center font-spotify">
+      <h2 className="text-4xl md:text-6xl font-bold text-primary  mt-12 mb-12 text-center font-spotify">
         Experience
       </h2>
       <div className="max-w-4xl mx-auto px-4">

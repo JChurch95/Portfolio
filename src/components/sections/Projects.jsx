@@ -53,7 +53,7 @@ const Projects = () => {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-4xl md:text-6xl font-bold text-primary mb-28 text-center font-spotify">
+        <h2 className="text-4xl md:text-6xl font-bold text-primary mt-12 mb-28 text-center font-spotify">
           Featured Projects
         </h2>
 
