@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url('/path-to-your-font/Circular-Bold.woff2') format('woff2'),
+       url('/path-to-your-font/Circular-Bold.woff') format('woff');
+}

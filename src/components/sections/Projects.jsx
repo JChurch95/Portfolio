@@ -9,7 +9,7 @@ const Projects = () => {
       tech: ["React", "OpenAI", "Tailwind CSS", "Supabase", "FastAPI", "SQLModel", "PostgreSQL"],
       github: "https://github.com/JChurch95/Trip_Planner_Frontend",
       live: "https://rabbitroute.netlify.app/",
-      image: "/placeholder/500/300"
+      image: "/Rabbit_Route.png"
     },
     {
       title: "Mall Rats Skate Shop",
@@ -36,9 +36,7 @@ const Projects = () => {
         viewport={{ once: true }}
       >
         <h2 className="text-4xl font-bold text-light mb-16 text-center">
-          <span className="text-primary">&lt;</span>
           Featured Projects
-          <span className="text-primary">/&gt;</span>
         </h2>
         
         <div className="grid md:grid-cols-2 gap-8">
@@ -54,11 +52,10 @@ const Projects = () => {
             >
               {/* Project Image with gradient overlay */}
               <div className="relative h-48">
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-dark/90 z-10" />
                 <img 
                   src={project.image} 
                   alt={project.title}
-                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full bg-white object-contain object-center group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
               

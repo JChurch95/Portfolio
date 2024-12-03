@@ -1,5 +1,4 @@
 import Navigation from './components/Navigation';
-import SocialNav from './components/SocialNav';
 import Home from './components/sections/Home';
 import About from './components/sections/About';
 import Projects from './components/sections/Projects';
@@ -11,7 +10,6 @@ function App() {
   return (
     <PageLayout>
       <Navigation />
-      <SocialNav />
       <main className="relative z-10">
         <Home />
         <About />

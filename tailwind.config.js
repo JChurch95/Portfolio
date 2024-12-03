@@ -7,9 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#64ffda',
-        'dark': '#0a0a0a',
+        'primary': '#1DB954',
+        'dark': '#191414',
         'light': '#e6f1ff'
+      },
+      fontFamily: {
+        'spotify': ['Circular', 'sans-serif']
       }
     },
   },
