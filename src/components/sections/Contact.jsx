@@ -10,7 +10,7 @@ const Contact = () => {
         </h2>
         
         <Reveal width="w-full">
-          <p className="text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl text-white mb-12 max-w-2xl mx-auto leading-relaxed">
             Shoot me an email and let's connect! For more of my digital adventures, find me on{' '}
             <a href="https://www.linkedin.com/in/jordan-a-church/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80">
               LinkedIn
@@ -20,7 +20,7 @@ const Contact = () => {
               GitHub
             </a>.
           </p>
-          <button className="bg-primary hover:bg-primary/90 text-dark font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 font-spotify">
+          <button className="bg-primary hover:bg-primary text-dark font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 font-spotify">
             <a href="mailto:your.email@example.com" className="text-lg">
             Say Howdy! 🤠
             </a>

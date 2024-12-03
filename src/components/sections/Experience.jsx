@@ -69,7 +69,7 @@ const Experience = () => {
                   <h3 className="text-2xl font-semibold text-primary font-spotify">
                     {exp.title}
                   </h3>
-                  <p className="text-xl text-light/80 font-spotify">
+                  <p className="text-xl text-light/90 font-spotify">
                     {exp.company} - {exp.location}
                   </p>
                   <p className="text-light/60 text-sm font-spotify">
@@ -78,7 +78,7 @@ const Experience = () => {
                 </div>
                 <ul className="list-disc list-outside ml-4 space-y-2">
                   {exp.achievements.map((achievement, i) => (
-                    <li key={i} className="text-light/90 font-spotify">
+                    <li key={i} className="text-white font-spotify">
                       {achievement}
                     </li>
                   ))}

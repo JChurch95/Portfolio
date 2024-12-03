@@ -17,7 +17,7 @@ const Projects = () => {
         "FastAPI",
         "SQLModel",
         "PostgreSQL",
-        "JWT"
+        "JWT",
       ],
       github: "https://github.com/JChurch95/Trip_Planner_Frontend",
       live: "https://rabbitroute.netlify.app/",
@@ -39,20 +39,23 @@ const Projects = () => {
       ],
       github: "https://github.com/JChurch95/crudco",
       live: "https://project-demo.com",
-      image: "/placeholder/500/300",
+      image: "/Mall_Rats.png",
     },
   ];
   return (
-    <section id="projects" className="min-h-screen py-20 bg-dark text-light font-spotify">
+    <section
+      id="projects"
+      className="min-h-screen py-20 bg-dark text-light font-spotify"
+    >
       <motion.div
         className="max-w-6xl mx-auto px-6"
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
       >
-          <h2 className="text-4xl md:text-6xl font-bold text-primary mb-28 text-center font-spotify">
-            Featured Projects
-          </h2>
+        <h2 className="text-4xl md:text-6xl font-bold text-primary mb-28 text-center font-spotify">
+          Featured Projects
+        </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
@@ -70,16 +73,19 @@ const Projects = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full bg-white object-contain object-center group-hover:scale-105 transition-transform duration-500"
+                    className={`w-full h-full ${
+                      project.title === "Mall Rats Skate Shop"
+                        ? "object-cover object-top"
+                        : "object-contain bg-white"
+                    } group-hover:scale-105 transition-transform duration-500`}
                   />
                 </div>
-
                 {/* Content */}
                 <div className="p-6">
                   <h3 className="text-2xl font-bold text-primary mb-2 font-spotify">
                     {project.title}
                   </h3>
-                  <p className="text-light/80 mb-4 line-clamp-3 font-spotify">
+                  <p className="text-white mb-4 line-clamp-3 font-spotify">
                     {project.description}
                   </p>
 

@@ -35,12 +35,12 @@ const Home = () => {
               </h1>
             </Reveal>
           <Reveal>
-            <h2 className="text-xl md:text-2xl text-light/80 mb-6 font-spotify">
+            <h2 className="text-xl md:text-2xl text-light/90 mb-6 font-spotify">
               Full Stack Developer
             </h2>
           </Reveal>
           <Reveal>
-            <p className="text-base md:text-lg text-light/60 max-w-2xl mx-auto mb-8 font-spotify">
+            <p className="text-base md:text-lg text-white max-w-2xl mx-auto mb-8 font-spotify">
               I'm a software developer specializing in creating engaging and
               impactful web applications. With expertise in technologies like
               Python, React, FastAPI, and PostgreSQL, I focus on crafting solutions that
