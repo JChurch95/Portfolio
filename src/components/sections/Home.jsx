@@ -5,7 +5,7 @@ import { DragMotion } from "../utilities/DragMotion"
 
 const Home = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20">
+    <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20 font-spotify">
       <motion.div
         className="relative z-10 max-w-4xl w-full text-center"
         initial={{ opacity: 0, y: 20 }}
@@ -29,35 +29,32 @@ const Home = () => {
             
         </motion.div>
         <div className="flex flex-col items-center justify-center">
+            <Reveal>
+              <h1 className="text-4xl md:text-5xl font-bold mb-4 text-light font-spotify">
+                <span className="text-primary">Jordan Church</span>
+              </h1>
+            </Reveal>
           <Reveal>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-light">
-              <span className="text-primary">Jordan Church</span>
-            </h1>
-          </Reveal>
-          
-          <Reveal>
-            <h2 className="text-xl md:text-2xl text-light/80 mb-6">
+            <h2 className="text-xl md:text-2xl text-light/80 mb-6 font-spotify">
               Full Stack Developer
             </h2>
           </Reveal>
-          
           <Reveal>
-            <p className="text-base md:text-lg text-light/60 max-w-2xl mx-auto mb-8">
+            <p className="text-base md:text-lg text-light/60 max-w-2xl mx-auto mb-8 font-spotify">
               I'm a software developer specializing in creating dynamic and
               responsive web applications. With expertise in technologies like
-              React, Tailwind, and PostgreSQL, I focus on crafting solutions that
+              React, FastAPI, and PostgreSQL, I focus on crafting solutions that
               are not only functional but also visually engaging. I take pride in
               building accessible, user-friendly applications that make a real
               impact. Feel free to explore my portfolio to see my work and learn
               more about me!
             </p>
           </Reveal>
-
           <Reveal>
             <motion.a
               href="#projects"
-              className="inline-block px-8 py-3 rounded-full bg-primary text-dark font-medium 
-                       hover:bg-primary/90 transition-all duration-300"
+              className="inline-block px-8 py-3 rounded-full bg-primary text-dark font-medium font-spotify
+                        hover:bg-primary/90 transition-all duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -82,7 +79,7 @@ const Home = () => {
               ].map((tech, index) => (
                 <span
                   key={index}
-                  className="px-4 py-2 rounded-full bg-light/5 text-light/80 text-sm 
+                  className="px-4 py-2 rounded-full bg-light/5 text-light/80 text-sm font-spotify
                            border border-light/10 hover:border-primary/50 hover:bg-primary/5 
                            transition-colors duration-300"
                 >

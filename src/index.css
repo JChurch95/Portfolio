@@ -9,6 +9,9 @@ html {
 
 @font-face {
   font-family: 'Circular';
-  src: url('/path-to-your-font/Circular-Bold.woff2') format('woff2'),
-       url('/path-to-your-font/Circular-Bold.woff') format('woff');
+  src: url('/fonts/circular-std-2.woff2') format('woff2'),
+       url('/fonts/circular-std-2.woff') format('woff'),
+       url('/fonts/circular-std-2.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
 }

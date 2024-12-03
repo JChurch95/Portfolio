@@ -1,20 +1,19 @@
 import React from "react";
 import { Reveal } from "../utilities/Reveal";
-
 const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-black py-20"
+      className="min-h-screen flex items-center justify-center bg-dark py-20 font-spotify"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl md:text-6xl font-bold text-primary mb-12 text-center">
+        <h2 className="text-4xl md:text-6xl font-bold text-primary mb-12 mt-28 text-center font-spotify">
           About Me
         </h2>
-        <div className="text-lg md:text-xl text-light/80 leading-relaxed space-y-8">
+        <div className="text-lg md:text-xl text-light/80 leading-relaxed space-y-8 font-spotify">
           <Reveal>
             <p>
-              <span className="bg-primary text-dark py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
+              <span className="bg-primary text-dark py-2 px-3 rounded font-bold mr-1 float-left text-2xl font-spotify">
                 H
               </span>
               ey there! I'm Jordan Church, a software developer passionate about crafting efficient, user-focused web applications. My journey into tech started at Carolina Code School, where I gained a strong foundation in React, Python, PostgreSQL, and more through their immersive Full Stack Web Development program.
