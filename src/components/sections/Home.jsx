@@ -41,12 +41,12 @@ const Home = () => {
           </Reveal>
           <Reveal>
             <p className="text-base md:text-lg text-light/60 max-w-2xl mx-auto mb-8 font-spotify">
-              I'm a software developer specializing in creating dynamic and
-              responsive web applications. With expertise in technologies like
-              React, FastAPI, and PostgreSQL, I focus on crafting solutions that
+              I'm a software developer specializing in creating engaging and
+              impactful web applications. With expertise in technologies like
+              Python, React, FastAPI, and PostgreSQL, I focus on crafting solutions that
               are not only functional but also visually engaging. I take pride in
-              building accessible, user-friendly applications that make a real
-              impact. Feel free to explore my portfolio to see my work and learn
+              building meaningful, user-friendly applications that make a real
+              difference. Feel free to check out my portfolio to see my work and learn
               more about me!
             </p>
           </Reveal>
