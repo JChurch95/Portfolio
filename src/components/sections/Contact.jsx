@@ -21,7 +21,7 @@ const Contact = () => {
             </a>.
           </p>
           <button className="bg-primary hover:bg-primary text-dark font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 font-spotify">
-            <a href="mailto:your.email@example.com" className="text-lg">
+            <a href="mailto:jordanchurch95@gmail.com" className="text-lg">
             Say Howdy! 🤠
             </a>
           </button>
