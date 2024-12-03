@@ -18,15 +18,14 @@ export default function Navigation() {
   ];
   return (
     <motion.nav
-      className="fixed top-0 left-1/2 -translate-x-1/2 z-50 w-full px-6 py-4 bg-dark/80 backdrop-blur-sm border-b border-primary/10 font-spotify"
+      className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-dark/80 backdrop-blur-sm border-b border-primary/10 font-spotify"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ 
         delay: 0.5,
         type: "spring",
         stiffness: 100,
-        damping: 20,
-        useTransform: true 
+        damping: 20
       }}
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center relative">
