@@ -15,3 +15,8 @@ html {
   font-weight: 900;
   font-style: normal;
 }
+
+* {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}

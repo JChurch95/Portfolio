@@ -16,13 +16,18 @@ export default function Navigation() {
     { icon: "linkedin", href: "https://www.linkedin.com/in/jordan-a-church/" },
     { icon: "envelope", href: "mailto:jordanchurch95@gmail.com" },
   ];
-
   return (
     <motion.nav
-      className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-dark/80 backdrop-blur-sm border-b border-primary/10 font-spotify"
+      className="fixed top-0 left-1/2 -translate-x-1/2 z-50 w-full px-6 py-4 bg-dark/80 backdrop-blur-sm border-b border-primary/10 font-spotify"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      transition={{ delay: 0.5 }}
+      transition={{ 
+        delay: 0.5,
+        type: "spring",
+        stiffness: 100,
+        damping: 20,
+        useTransform: true 
+      }}
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center relative">
         <div className="flex items-center gap-6">
