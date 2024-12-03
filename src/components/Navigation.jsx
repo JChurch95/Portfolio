@@ -24,7 +24,7 @@ export default function Navigation() {
       animate={{ y: 0 }}
       transition={{ delay: 0.5 }}
     >
-      <div className="max-w-6xl mx-auto flex justify-between items-center">
+      <div className="max-w-6xl mx-auto flex justify-between items-center relative">
         <div className="flex items-center gap-6">
           {/* Home button by itself */}
           <motion.a
@@ -35,7 +35,7 @@ export default function Navigation() {
           >
             JC
           </motion.a>
-          {/* Mobile social links as their own section */}
+          {/* Mobile social links */}
           <div className="lg:hidden flex gap-4 justify-center">
             {socialLinks.map((link, index) => (
               <motion.a
@@ -58,8 +58,8 @@ export default function Navigation() {
           </div>
         </div>
 
-        {/* Desktop Menu */}
-        <ul className="hidden lg:flex gap-8">
+        {/* Desktop Menu - Centered */}
+        <ul className="hidden lg:flex gap-8 absolute left-1/2 transform -translate-x-1/2">
           {navItems.map((item, index) => (
             <motion.li
               key={item.href}
