@@ -100,7 +100,6 @@ const Projects = () => {
                       </span>
                     ))}
                   </div>
-
                   {/* Links */}
                   <div className="flex gap-4 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
                     <a
@@ -111,14 +110,16 @@ const Projects = () => {
                     >
                       View Code
                     </a>
-                    <a
-                      href={project.live}
-                      className="px-4 py-2 rounded-full bg-light/10 text-light font-medium hover:bg-light/20 transition-colors font-spotify"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Live Demo
-                    </a>
+                    {project.title !== "Mall Rats Skate Shop" && (
+                      <a
+                        href={project.live}
+                        className="px-4 py-2 rounded-full bg-light/10 text-light font-medium hover:bg-light/20 transition-colors font-spotify"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Live Demo
+                      </a>
+                    )}
                   </div>
                 </div>
               </motion.div>
