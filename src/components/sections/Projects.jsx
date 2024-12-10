@@ -19,7 +19,8 @@ const Projects = () => {
         "PostgreSQL",
         "JWT",
       ],
-      github: "https://github.com/JChurch95/Trip_Planner_Frontend",
+      githubFrontend: "https://github.com/JChurch95/Trip_Planner_Frontend",
+      githubBackend: "https://github.com/JChurch95/Trip_Planner_Backend",
       live: "https://rabbitroute.netlify.app/",
       image: "/Rabbit_Route.png",
     },
@@ -37,12 +38,11 @@ const Projects = () => {
         "PostgreSQL",
         "JWT",
       ],
-      github: "https://github.com/JChurch95/crudco",
+      githubFrontend: "https://github.com/JChurch95/crudco",
+      githubBackend: "https://github.com/JChurch95/fastapi-ecommerce",
       live: "https://project-demo.com",
       image: "/Mall_Rats.png",
-    },
-  ];
-  return (
+    },  ];  return (
     <section
       id="projects"
       className="min-h-screen py-20 bg-dark text-light font-spotify"
@@ -101,14 +101,22 @@ const Projects = () => {
                     ))}
                   </div>
                   {/* Links */}
-                  <div className="flex gap-4 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+                  <div className="flex flex-col md:flex-row justify-center items-center gap-4 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
                     <a
-                      href={project.github}
+                      href={project.githubFrontend}
                       className="px-4 py-2 rounded-full bg-primary text-dark font-medium hover:bg-primary/90 transition-colors font-spotify"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      View Code
+                      View Frontend
+                    </a>
+                    <a
+                      href={project.githubBackend}
+                      className="px-4 py-2 rounded-full bg-primary text-dark font-medium hover:bg-primary/90 transition-colors font-spotify"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Backend
                     </a>
                     {project.title !== "Mall Rats Skate Shop" && (
                       <a
