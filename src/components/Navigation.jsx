@@ -104,7 +104,7 @@ export default function Navigation() {
             ))}
           </div>
           <motion.a
-            href="https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:9373d054-fa59-4c22-93dd-d3833f80df35"
+            href="https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:9032c3cb-72a8-4090-b3c7-394d0131f994"
             className="px-4 py-2 bg-primary text-dark rounded-full hover:bg-primary/90 transition-colors"
             target="_blank"
             rel="noopener noreferrer"
@@ -121,7 +121,7 @@ export default function Navigation() {
         {/* Mobile Resume and Hamburger */}
         <div className="lg:hidden flex items-center gap-4">
           <motion.a
-            href="https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:9373d054-fa59-4c22-93dd-d3833f80df35"
+            href="https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:9032c3cb-72a8-4090-b3c7-394d0131f994"
             className="px-4 py-2 bg-primary text-dark rounded-full hover:bg-primary/90 transition-colors"
             target="_blank"
             rel="noopener noreferrer"
