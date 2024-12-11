@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import "./utilities/hamburger.css";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +17,7 @@ export default function Navigation() {
     { icon: "linkedin", href: "https://www.linkedin.com/in/jordan-a-church/" },
     { icon: "envelope", href: "mailto:jordanchurch95@gmail.com" },
   ];
+
   return (
     <motion.nav
       className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-dark/80 backdrop-blur-sm border-b border-primary/10 font-spotify"
@@ -118,7 +120,7 @@ export default function Navigation() {
           </motion.a>
         </div>
 
-        {/* Mobile Resume and Hamburger */}
+        {/* Mobile Resume and Elastic Hamburger */}
         <div className="lg:hidden flex items-center gap-4">
           <motion.a
             href="https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:9032c3cb-72a8-4090-b3c7-394d0131f994"
@@ -133,32 +135,19 @@ export default function Navigation() {
           >
             Resume
           </motion.a>
-          <button
-            className="text-light/80 hover:text-primary"
+          
+          {/* Elastic Hamburger Button */}
+          <button 
+            className={`hamburger hamburger--elastic text-light/80 hover:text-primary transition-colors ${
+              isOpen ? 'is-active' : ''
+            }`}
+            type="button"
             onClick={() => setIsOpen(!isOpen)}
+            aria-label="Menu"
           >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              {isOpen ? (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              ) : (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              )}
-            </svg>
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
+            </span>
           </button>
         </div>
 
