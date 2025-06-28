@@ -4,6 +4,17 @@ import { Reveal } from "../utilities/Reveal";
 const Experience = () => {
   const experiences = [
     {
+      title: "Marketing Specialist - Operations",
+      company: "Contec Inc",
+      location: "Spartanburg, SC",
+      date: "Feb 2025 – Present",
+      achievements: [
+        "Administrator for ContecYou and its support inbox, managing platform operations, resolving technical issues, and coordinating user support and training",
+        "Highspot super admin for the company, leading sales rep trainings and maintaining governance across the platform",
+        "Administrator for the CRM platform and support inboxes, maintaining data accuracy, troubleshooting issues, and supporting cross-functional workflows",
+      ],
+    },
+    {
       title: "Student",
       company: "Carolina Code School",
       location: "Greenville, SC",
