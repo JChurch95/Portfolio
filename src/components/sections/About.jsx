@@ -28,13 +28,13 @@ const About = () => {
 
           <Reveal>
             <p>
-              Before transitioning into tech, I spent six years in the textile industry, where I honed my problem-solving and optimization skills. My journey started at Inman Mills where I learned how to manage people as a Production Manager. At Milliken, I worked as a Process Improvement Engineer on innovative projects, sparking my passion for technology's transformative potential. After a year in technical sales at Graf MEtallic, I followed my heart and shifted to software development to bring creative ideas to life.
+              Before transitioning into tech, I spent six years in the textile industry, where I honed my problem-solving and optimization skills. My journey started at Inman Mills where I learned how to manage people as a Production Manager. At Milliken, I worked as a Process Improvement Engineer on innovative projects, sparking my passion for technology's transformative potential. After a year in technical sales at Graf Metallic, I followed my heart and shifted to software development to bring creative ideas to life.
             </p>
           </Reveal>
 
           <Reveal>
             <p>
-              When I'm not coding, you can find me running, gaming, or exploring new technologies. I thrive on tackling challenges and collaborating with others to build impactful solutions. Let's connect and create something amazing!
+              When I'm not coding, you can find me running, gaming, or exploring new technologies. If you have any questions about me and my experience, let's connect!
             </p>
           </Reveal>
         </div>
