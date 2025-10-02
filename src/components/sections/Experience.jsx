@@ -7,11 +7,12 @@ const Experience = () => {
       title: "Marketing Specialist - Operations",
       company: "Contec Inc",
       location: "Spartanburg, SC",
-      date: "Feb 2025 – Present",
+      date: "Feb 2025 – Sept 2025",
       achievements: [
-        "Administrator for ContecYou and its support inbox, managing platform operations, resolving technical issues, and coordinating user support and training",
-        "Highspot super admin for the company, leading sales rep trainings and maintaining governance across the platform",
-        "Administrator for the CRM platform and support inboxes, maintaining data accuracy, troubleshooting issues, and supporting cross-functional workflows",
+        "Administrator for ContecYou, Contec's learning management system designed to certify compounding pharamcies in specific clearnoom trainings required by USP regulations",
+        "Led the management of their LMS, CRM, and Sales Enablement support inboxs, managing platform operations, resolving technical issues, and coordinating user support and training",
+        "Sales Enablement platform (Highspot) super admin for the company, leading sales rep trainings and maintaining governance across the platform",
+        "Managed Microsoft 365 content and coordinated training sessions for platform use",
       ],
     },
     {
@@ -31,9 +32,9 @@ const Experience = () => {
       location: "Spartanburg, SC",
       date: "Sep 2023 – Sep 2024",
       achievements: [
-        "Managed a $5 million B2B sales territory for non-woven and spinning carding equipment",
-        "Conducted in-depth equipment and process evaluations to ensure optimal performance for clients",
-        "Strengthened customer relationships by providing tailored solutions and consistent technical support",
+        "Managed a $5 million B2B sales territory, specializing in non-woven and spinning carding equipment",
+        "Delivered comprehensive technical evaluations to optimize client equipment and processes",
+        "Simplified complex technical solutions into practical, easy-to-follow steps, fostering trust and strengthening client relationships",
       ],
     },
     {
@@ -43,9 +44,9 @@ const Experience = () => {
 
       date: "Dec 2021 – Dec 2023",
       achievements: [
-        "Led the One Drop Project, achieving a 35% increase in package sizes while maintaining quality standards",
-        "One Drop Project resulted in saving over 50K resulting in earning a Six Sigma Green Belt certification",
-        "Refined quality control procedures across 7+ manufacturing processes",
+        "Led process improvement projects at the Limestone Plant, driving efficiency across multiple manufacturing operations (blending, carding, spinning, twisting, and weaving)",
+        "Completed Six Sigma Green Belt training and applied statistical software to analyze quality and process data",
+        "Improved quality control procedures and optimized workflows, resulting in measurable cost savings and enhanced reliability",
       ],
     },
     {
@@ -55,10 +56,9 @@ const Experience = () => {
 
       date: "Aug 2018 – Nov 2021",
       achievements: [
-        "Served as Textile Production Manager, leading and motivating a team of 80 employees across five departments",
-        "Oversaw the end to end production of raw materials to finished textile product in Blending, Carding, Spinning, etc.",
-        "Led process improvement initiatives, achieving measurable outcomes and delivering impactful results",
-        "Contributed to the production of Kevlar for the United States military",
+        "Managed 5 departments with a team of ~40 employees, driving production efficiency and quality",
+        "Oversaw operations across Blending, Carding, Drawing, Jet Spinning, and Vortex Spinning",
+        "Supported production of specialized materials, including Kevlar for the U.S. military and fire-resistant mattress covers, ensuring compliance with strict safety and durability standards.",
       ],
     },
   ];
