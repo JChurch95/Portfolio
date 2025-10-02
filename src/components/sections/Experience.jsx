@@ -10,7 +10,7 @@ const Experience = () => {
       date: "Feb 2025 – Sept 2025",
       achievements: [
         "Administrator for ContecYou, Contec's learning management system designed to certify compounding pharamcies in specific clearnoom trainings required by USP regulations",
-        "Led the management of their LMS, CRM, and Sales Enablement support inboxs, managing platform operations, resolving technical issues, and coordinating user support and training",
+        "Led the management of their LMS, CRM, and Sales Enablement support inboxes, managing platform operations, resolving technical issues, and coordinating user support and training",
         "Sales Enablement platform (Highspot) super admin for the company, leading sales rep trainings and maintaining governance across the platform",
         "Managed Microsoft 365 content and coordinated training sessions for platform use",
       ],
