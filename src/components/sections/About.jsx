@@ -22,13 +22,13 @@ const About = () => {
 
           <Reveal>
             <p>
-              I specialize in creating dynamic and responsive applications that solve real-world problems. One of my favorite projects is Rabbit Route, an AI-powered trip planner that generates custom itineraries with hotel recommendations and local tips. This project highlights my skills in integrating APIs, structuring databases, and building seamless user experiences. Another standout project, Mall Rats, showcases my ability to design full-stack e-commerce platforms, complete with product categorization, user authentication, and shopping cart functionality.
+              I specialize in creating dynamic and responsive applications that solve real-world problems. One of my favorite projects is Rabbit Route, an AI-powered trip planner that generates custom itineraries with hotel recommendations and local tips. This project highlights my skills in integrating APIs, and structuring databases.
             </p>
           </Reveal>
 
           <Reveal>
             <p>
-              Before transitioning to software development, I spent six years in the textile industry, where I honed my problem-solving and optimization skills. At Milliken, I worked on innovative projects like using AI to detect weaving defects in real time, sparking my passion for technology's transformative potential. After a year in technical sales, I followed my heart and shifted to software development to bring creative ideas to life.
+              Before transitioning into tech, I spent six years in the textile industry, where I honed my problem-solving and optimization skills. My journey started at Inman Mills where I learned how to manage people as a Production Manager. At Milliken, I worked as a Process Improvement Engineer on innovative projects, sparking my passion for technology's transformative potential. After a year in technical sales at Graf MEtallic, I followed my heart and shifted to software development to bring creative ideas to life.
             </p>
           </Reveal>
 
